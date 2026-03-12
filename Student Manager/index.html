@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Student Manager</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1><i class="fa-solid fa-user-graduate"></i> Student Manager</h1>
+
+<form id="student-form">
+
+<input type="text" id="roll" placeholder="Roll No">
+
+<input type="text" id="name" placeholder="Student Name">
+
+<button type="submit" id="addBtn" disabled>
+<i class="fa-solid fa-plus"></i> Add
+</button>
+
+</form>
+
+<input type="text" id="search" placeholder="🔍 Search student">
+
+<div class="actions">
+
+<button id="sortBtn">
+<i class="fa-solid fa-arrow-down-a-z"></i> Sort A-Z
+</button>
+
+<button id="highlightBtn">
+<i class="fa-solid fa-star"></i> Highlight First
+</button>
+
+</div>
+
+<ul id="student-list"></ul>
+
+<p id="count">Total students: 0</p>
+
+<p id="attendance">Present: 0 | Absent: 0</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
