@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile ">
+    <meta name="keywords" content="HTML5, semantic web, academic profile, forms, tables">
+    <meta name="author" content="Atik">
+    <title>Academic Profile -Atik</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Atik;s Profile</h1>
+
+        <nav>
+            <a href="#bio">Biography</a> |
+            <a href="#education">Education</a> |
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>
+                I am Atik Foisal, a Computer Science student with a strong interest in web development,
+                problem solving, and modern technologies. This page represents my academic profile.
+                And i am passionate about competitive programming that helps me a lot.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Educational Qualifications</h2>
+
+            <table border="1" cellpadding="5">
+                <caption>Academic Background</caption>
+
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>B.Sc. in CSE</td>
+                        <td>American International University-Bangladesh (AIUB)</td>
+                        <td>2023 – Present</td>
+                        <td>Ongoing</td>
+                    </tr>
+
+                    <tr>
+                        <td>HSC</td>
+                        <td>Naogaon Government College</td>
+                        <td>2022</td>
+                        <td>A+</td>
+                    </tr>
+
+                    <tr>
+                        <td>SSC</td>
+                        <td>Naogaon K.D. Government High School</td>
+                        <td>2020</td>
+                        <td>A+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required maxlength="50"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="01XXXXXXXXX"
+                       pattern="01[0-9]{9}"
+                       maxlength="11"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here"
+                          required maxlength="200"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Atik Foisal | Academic Profile</p>
+    </footer>
+
+</body>
+</html>
